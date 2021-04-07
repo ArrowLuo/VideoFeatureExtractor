@@ -34,6 +34,8 @@ Refer to below command to generate such a csv file:
 ```sh
 python preprocess_generate_csv.py --csv=input.csv --video_root_path [VIDEO_PATH] --feature_root_path [FEATURE_PATH] --csv_save_path .
 ```
+*Note: the video file should have a suffix, modify the code for your customization*
+
 
 And then just simply run:
 
@@ -46,6 +48,7 @@ If you want to pickle all generated npy files:
 ```sh
 python convert_video_feature_to_pickle.py --feature_root_path [FEATURE_PATH] --pickle_root_path . --pickle_name input.pickle
 ```
+*The key is set as the video name in the pickle file*
 
 ## Acknowledgements
 The code re-used code from https://github.com/kenshohara/3D-ResNets-PyTorch
