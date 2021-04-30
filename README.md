@@ -4,6 +4,9 @@ This repo is forked from [video_feature_extractor](https://github.com/antoine773
 This repo is also as a preprocess in video-language pretrain model [UniVL](https://github.com/microsoft/UniVL).
 
 ## Requirements
+
+IMPORTANT: The video decode process depends on the FFmpeg (https://www.ffmpeg.org/download.html), install it first and run `ffmpeg` and `ffprobe` command derectly to make them work well.
+
 - Python 3
 - PyTorch (>= 1.0)
 - python-ffmpeg (https://github.com/kkroening/ffmpeg-python)
